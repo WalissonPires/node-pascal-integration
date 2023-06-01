@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "build": "fpc -Sd sample-pascal-lib.pas"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "ref-wchar-napi": "^1.0.3"
+  }
+}
